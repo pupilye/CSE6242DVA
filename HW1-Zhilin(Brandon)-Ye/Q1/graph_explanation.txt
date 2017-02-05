@@ -1,0 +1,9 @@
+Choose 'force atlas' as layout;
+
+Group the nodes based on modularity;
+
+Scale the label size;
+
+Scale the node size based on the degree;
+
+Drag the nodes around to adjust.

@@ -1,0 +1,16 @@
+1. Average Node Degree:
+The value is 2.054.
+The degree of a node is the number of relation (edge) it has, 
+independantly if it’s a in or a out relation. 
+It’s the sum of edges for a node.
+So the average node degree is the average number of one edge has 
+in the graph.
+
+2.Diameter of the graph:
+The value is 4.
+It means the longest of all the calculated path length.
+
+
+3.Average path length:
+The value is 3.674.
+It means the average length of all the calculated path length.

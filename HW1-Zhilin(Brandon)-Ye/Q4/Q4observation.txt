@@ -1,0 +1,17 @@
+1. Event: 1644
+   Venue: 142
+
+2. GREL Expression: toString(toDate(value),'EEEE, MMMM dd, yyyy')
+
+3. nominal: Venue
+   Ordinal: id
+
+4. and(isNotNull(value.contains("GERMAN")),isNotNull(value.contains("ENGLISH")))
+
+5. value.substring(0,9)
+
+6. Edit cell-- common transfer -- to Number
+   It can help us filter or do calculation on the column 
+   using a numeric facet.
+   For example, after transforming dish_count to numeric and 
+   do a log, it looks much more normally distributed.
