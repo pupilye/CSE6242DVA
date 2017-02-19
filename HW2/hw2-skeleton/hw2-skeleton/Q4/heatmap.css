@@ -1,0 +1,26 @@
+#title {
+    stroke:black;
+    font-size:15px;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+.tile {
+    shape-rendering:crispEdges;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke:grey;
+    shape-rendering: crispEdges;
+}
+.label {
+    font-weight:bold;
+}
+.x.axis.label {
+    font-size:12px;
+    font-weight:bold;
+}
+.y.axis.label {
+    font-size:12px;
+    font-weight:bold;
+}

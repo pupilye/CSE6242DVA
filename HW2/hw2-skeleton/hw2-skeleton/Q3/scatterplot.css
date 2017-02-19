@@ -1,0 +1,48 @@
+.dot {
+    fill:none;
+}
+.dot.Lagomorpha {
+    stroke:red;
+}
+.dot.Didelphimorphia {
+    stroke:blue;
+}
+.dot.Dasyuromorphia {
+    stroke:green;
+}
+
+.axis text {
+    font-size:10px;
+    font-family:sans-serif;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke:grey;
+    shape-rendering: crispEdges;
+}
+.x.axis.label {
+    font-size:12px;
+    font-weight:bold;
+}
+.y.axis.label {
+    font-size:12px;
+    font-weight:bold;
+}
+.tick line {
+    opacity: 0.2;
+}
+#chart {
+    float:left;
+}
+#legend {
+    float:left;
+}
+#legend text {
+    font-size:13px;
+    font-family: sans-serif;
+    fill:#444;
+}
+#headline {
+    font-weight:bold;
+}

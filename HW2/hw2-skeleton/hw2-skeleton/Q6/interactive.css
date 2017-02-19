@@ -1,0 +1,22 @@
+.bar {
+    shape-rendering:crispEdges;
+}
+.number {
+    font-family:sans-serif;
+    stroke:#fff;
+    text-anchor:start;
+    alignment-baseline:central;
+    fill:#fff;
+    font-size:18px;
+    font-weight:lighter;
+}
+.sub.number {
+    font-size:12px;
+}
+.name {
+    font-family:sans-serif;
+    stroke:grey;
+    fill:grey;
+    alignment-baseline:central;
+    font-size:18px;
+}
